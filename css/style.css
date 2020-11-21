@@ -8,11 +8,14 @@ html, body{
 
 h1 {
     font-size: 40px;
+    text-align: center;
+    
 }
 
 h2 {
     font-size: 29px;
     color: brown;
+    text-align: center;
 }
 
 h3,p {
@@ -20,3 +23,7 @@ font-size: 19px;
 line-height: 32px;
 }
 
+img {
+    width: 100%;
+    display: block;
+}

@@ -118,7 +118,7 @@ img {
 
 img.fit {
   height: 100%;
-  object-fit: contain; /* use cover if you want it to fill the space */
+  object-fit: cover; /* use cover if you want it to fill the space */
 }
 
 img.small {

@@ -144,4 +144,13 @@ img {
   
   
 
+/* header */
 
+header {
+    background: linear-gradient(to right, #6495ED, #A52A2A);
+    opacity: 0.5;
+    padding: 0 20px;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;

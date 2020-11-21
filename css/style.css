@@ -38,41 +38,65 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-/* bouncing */
-
-.stage {
-    border-bottom: 3px solid #444;
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  body {
+    margin: 0;
+  }
+  
+  .slides {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
     display: flex;
-    height: 330px;
+  }
+  
+  .slides > div {
+    flex: 0 0 100vw;
+    width: 100vw;
+    min-height: 100vh;
+    scroll-snap-align: start;
+    overflow-y: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .dots {
+    position: fixed;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
     width: 100%;
-}
-.box {
-    align-self: flex-end;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    background-color: #F44336;
-    height: 200px;
-    margin: 0 auto 0 auto;
-    transform-origin: bottom;
-    width: 200px;
-}
-.bounce-1 {
-    animation-name: bounce-1;
-    animation-timing-function: linear;
-}
-@keyframes bounce-1 {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-100px); }
-    100% { transform: translateY(0); }
-}
+  }
+  
+  .dots > div {
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 100px;
+  }
+  
+  .dot {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    border-radius: 100%;
+    background: lightgray;
+  }
+  
+  .dot.active {
+    background: black;
+  }
+  
+
+
+
 
 

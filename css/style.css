@@ -26,8 +26,8 @@ padding: 20px 20px;
 }
 
 img {
-    height: 600px;
-    width: auto;
+    height: 1005;
+    width: block;
 }
 
 
@@ -96,8 +96,7 @@ img {
   }
 
 
-
-
+/* columnns */
 
   body {
     height: 100vh;

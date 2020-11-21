@@ -195,7 +195,7 @@ a {
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: cornflowerblue; /* Fallback color */
-    background-color: skyblue; /* Black w/ opacity */
+    background-color: cornflowerblue; /* Black w/ opacity */
   }
   
   /* Modal Content/Box */

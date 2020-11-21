@@ -1,6 +1,22 @@
-/* background */
 
-body {
-    background-image: https://www.freepik.com/free-vector/cartoon-background-empty-basketball-court-interior-sports-arena-with-spotlights_3586327.html;
-    background-repeat: no-repeat;
+html, body{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: royalblue;
 }
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 29px;
+    color: brown;
+}
+
+h3,p {
+font-size: 19px;
+line-height: 32px;
+}
+

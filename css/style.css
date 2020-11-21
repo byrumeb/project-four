@@ -121,6 +121,11 @@ img {
     object-fit: cover;
   }
   
+img.small {
+    height: 50%;
+    object-fit: scale-down;
+}
+
   .row > div {
     width: 100%;
   }

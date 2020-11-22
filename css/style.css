@@ -228,3 +228,18 @@ a {
     font-size: 16px;
     text-align: center;
   }
+
+
+
+
+  /* bounce */
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}
